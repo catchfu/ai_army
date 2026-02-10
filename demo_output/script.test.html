@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form — Test Runner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: hsl(225, 25%, 8%);
+            color: hsl(220, 20%, 90%);
+            padding: 2rem;
+            line-height: 1.8;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            margin-bottom: 1rem;
+            color: hsl(220, 15%, 60%);
+            font-weight: 400;
+        }
+
+        .test-pass {
+            padding: 0.5rem 0.75rem;
+            margin: 0.25rem 0;
+            border-left: 3px solid hsl(145, 65%, 50%);
+            background: hsla(145, 65%, 50%, 0.05);
+            border-radius: 4px;
+        }
+
+        .test-fail {
+            padding: 0.5rem 0.75rem;
+            margin: 0.25rem 0;
+            border-left: 3px solid hsl(0, 75%, 60%);
+            background: hsla(0, 75%, 60%, 0.08);
+            border-radius: 4px;
+        }
+
+        .test-fail small {
+            color: hsl(0, 75%, 70%);
+            display: block;
+            margin-top: 0.25rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🧪 Login Form — Test Results</h1>
+    <div id="test-output">Running tests...</div>
+
+    <!-- Load the source code (functions under test) -->
+    <script src="script.js"></script>
+
+    <!-- Load and execute tests -->
+    <script src="script.test.js"></script>
+</body>
+
+</html>
